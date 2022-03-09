@@ -2,7 +2,7 @@ function dicegame(){
 //First dice Randomizer
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-var randomDiceImg = "images/dice" + randomNumber1 + ".png";
+var randomDiceImg = "https://github.com/horusq/dice-game/tree/dac137d65ae5cf11c3bd1ba774f2d1e1f78ed77a/Dicee%20Challenge%20-%20Starting%20Filesimages/dice" + randomNumber1 + ".png";
 
 var image1 = document.querySelectorAll("img")[0];
 
