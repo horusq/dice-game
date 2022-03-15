@@ -10,7 +10,7 @@ image1.setAttribute("src", randomDiceImg);
 //second dice randomizer
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-var randomDiceImg = "images/dice" + randomNumber2 + ".png";
+var randomDiceImg = "Dicee Challenge - Starting Files/images/dice" + randomNumber2 + ".png";
 
 var image2 = document.querySelectorAll("img")[1];
 
